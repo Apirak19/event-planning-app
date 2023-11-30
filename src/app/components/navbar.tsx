@@ -1,0 +1,24 @@
+"use client"
+import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
+export const NavTab:React.FC = () => {
+  return (
+   <Navbar expand="lg" className="">
+     <Container className='flex justify-center items-center w-screen bg-slate-700 p-3'>
+       <Navbar.Brand href="/" className='text-white text-4xl font-semibold'>Event-Planner</Navbar.Brand>
+       <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-yellow-300'/>
+       <Navbar.Collapse id="basic-navbar-nav" className='ml-48'>
+         <Nav className="flex items-center gap-3">
+           <Nav.Link href="#home" className='text-white text-2xl'>Home</Nav.Link>
+           <Nav.Link href="#link" className='text-white text-2xl'>Link</Nav.Link>
+           <Nav.Link href="#link" className='text-white text-2xl'>Profile</Nav.Link>
+         </Nav>
+       </Navbar.Collapse>
+     </Container>
+   </Navbar>
+ );
+};
