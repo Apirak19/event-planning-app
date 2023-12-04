@@ -6,6 +6,7 @@ export default function Profile() {
        <div className="">
          <h1>Profile</h1>
          <p>Description</p>
+         <p>Description</p>
        </div>
        
      </main>
