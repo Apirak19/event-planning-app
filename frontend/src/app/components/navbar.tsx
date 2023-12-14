@@ -15,8 +15,11 @@ export const NavTab:React.FC = () => {
          <Nav className="flex items-center gap-3">
            <Nav.Link href="/calendar" className='text-white text-2xl'>Calendar</Nav.Link>
            <Nav.Link href="#link" className='text-white text-2xl'>Link</Nav.Link>
-           <Nav.Link href="/profile" className='text-white text-2xl'>Profile</Nav.Link>
-         </Nav>
+            <Nav.Link href="/profile" className='text-white text-2xl'>Profile</Nav.Link>
+            <Nav.Link href="/api/auth/login" className='text-white text-2xl'>Login</Nav.Link>
+            <Nav.Link href="/api/auth/logout" className='text-white text-2xl'>Log out</Nav.Link>
+          </Nav>
+          
        </Navbar.Collapse>
      </Container>
    </Navbar>

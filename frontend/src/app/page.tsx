@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className='text-4xl font-semibold'>Welcome to Event-Planner App</h1>
         <h4 className='text-2xl mt-4'>More Productivity, More Free time, More Fun in your Life</h4>
       </div>
-      <Link className='bg-slate-600 text-white px-5 py-2 rounded-xl mt-7' href={"/calendar"}>Start Now</Link>
+          <Link className='bg-slate-600 text-white px-5 py-2 rounded-xl mt-7' href={"/calendar"}>Start Now</Link>
     </main>
     </NylasProvider>
     </React.StrictMode>
