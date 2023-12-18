@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export const NavTab:React.FC = () => {
   return (
-   <Navbar expand="lg" className="">
+   <Navbar expand="lg" className="fixed">
      <Container className='flex justify-start items-center w-screen bg-slate-700 p-3 h-[60px]'>
        <Navbar.Brand href="/" className='text-white text-4xl font-semibold ml-5'>Event-Planner</Navbar.Brand>
        <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-yellow-300'/>
